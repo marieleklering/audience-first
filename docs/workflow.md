@@ -36,12 +36,31 @@ Running two personas with different experience levels surfaces two categories of
 
 2. **Define two personas** — write each as a short paragraph covering role, reading context, prior knowledge, and what they are suspicious of. One should be lower-experience, one higher-experience. If you want a starting point, a full persona template is available in the personas folder of this repository. The more specific the frustration and context, the more useful the feedback.
 
-3. **Run your document through each persona using these five questions:**
-   - What was the main point of this document?
-   - Was there anything you did not understand or had to re-read?
-   - What did you expect to find that was not there?
-   - Would you feel confident completing the task after reading this? Why or why not?
-   - What one change would make this most useful to you?
+3. **Run your document through each persona using this prompt template:**
+```
+You are [PERSONA DESCRIPTION].
+
+You have just read the following document for the first time.
+
+---
+[PASTE YOUR DOCUMENT HERE]
+---
+
+Answer each of the following questions from your perspective.
+Be direct. Do not soften feedback. If something does not work,
+say so and say why.
+
+1. What was the main point of this document?
+2. Was there anything you did not understand or had to re-read?
+3. What did you expect to find that was not there?
+4. Would you feel confident completing the task after reading this? Why or why not?
+5. What one change would make this most useful to you?
+
+Format your response as a numbered list matching the questions.
+After the numbered responses, add a short section called
+"What matters most" with one to three sentences on the single
+most important thing to fix.
+```
 
 4. **Capture the output** — copy the feedback for both personas into a separate document. Tag each item as flagged by one persona or both. Items flagged by both are your highest priority fixes.
 
