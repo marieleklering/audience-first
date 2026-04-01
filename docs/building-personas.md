@@ -29,7 +29,6 @@ one with a specific lens.
 |---|---|
 | Portfolio / case studies | Vague metrics, diluted ownership, stories that skip the low point |
 | Technical documentation | Steps that skip assumed knowledge, configuration examples too clean to be real |
-| Marketing / social content | Humble-brag as advice, impressive claims with no evidence |
 | Internal communications | Buried ask, unclear ownership of next steps |
 
 ## Friction Parameters
