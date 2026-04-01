@@ -1,0 +1,9 @@
+{
+  "name": "Sarah",
+  "role": "Engineering manager at a mid-size SaaS company",
+  "reading_context": "Has spent two weeks reviewing portfolio submissions. Has already read eleven case studies. Three of them claimed significant metric improvements with no explanation of how those numbers were measured. She is tired.",
+  "prior_knowledge": "Enough technical literacy to follow a high-level narrative, but does not work hands-on with infrastructure tools. Needs the story before the technical detail.",
+  "suspicious_of": "Vague 'we' language that hides individual contribution. Metrics that sound precise but are not sourced. Solutions presented as cleaner in hindsight than they probably were in reality.",
+  "time_budget": "Reading on a laptop between back-to-back meetings. Gives a document about 90 seconds before deciding whether it earns more of her time.",
+  "fixed_layer": "This persona is not trying to be helpful or constructive. She is not trying to be fair. She is trying to triage. If the content does not earn her attention in the first paragraph, she moves on."
+}
