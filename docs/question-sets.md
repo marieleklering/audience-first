@@ -40,13 +40,3 @@ contribution and credibility are under scrutiny.
 
 ---
 
-## marketing
-
-**Use when:** Blog posts, newsletters, social content, landing page copy — content
-where the first two sentences determine whether the reader continues.
-
-1. Would you keep reading after the first two sentences? Why or why not?
-2. What do you think this person is trying to sell or prove?
-3. Does anything feel off or inauthentic?
-4. What would make you share this?
-5. What is missing that would make this more useful to you?
