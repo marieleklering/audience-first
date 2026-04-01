@@ -30,6 +30,8 @@ Generic feedback is useless. "This could be clearer" tells you nothing. A person
 
 Running two personas with different experience levels surfaces two categories of problem: gaps that confuse everyone, and gaps that only appear for a specific audience. Both are worth fixing. Knowing which is which tells you where to prioritise.
 
+Simulated feedback has a ceiling. Claude cannot replicate genuine domain expertise, accumulated frustration with a specific product, or the instinct a practitioner develops from years of hands-on work. A persona cannot tell you that a step contradicts a common convention in a specific tool's ecosystem, or that your phrasing will land differently for a reader who has been burned by exactly this kind of problem before. Use this workflow to catch the gaps you can catch early. The gaps that remain are the ones worth taking to a human reviewer.
+
 ## The 7-Step Workflow
 
 1. **Choose a document** — pick something mid-length, 300 to 800 words. Not so simple there is nothing to find, not so complex the feedback becomes noise. A how-to guide, a runbook section, or a case study works well.
