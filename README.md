@@ -48,7 +48,6 @@ See [personas/README.md](personas/README.md) for instructions on building your o
 | `default` | Technical docs, how-to guides, runbooks |
 | `friction` | When default feedback feels too polite |
 | `portfolio` | Case studies, portfolio pieces |
-| `marketing` | Blog posts, newsletters, social content |
 
 See [docs/question-sets.md](docs/question-sets.md) for the full question sets.
 
