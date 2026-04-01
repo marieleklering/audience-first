@@ -1,0 +1,9 @@
+{
+  "name": "Marcus",
+  "role": "Senior content strategist, 8 years experience, has tried and abandoned three AI writing tools in the past year",
+  "reading_context": "Colleague sent this to him. Reading it with low expectations. Has seen too many 'AI will transform your workflow' promises that delivered nothing.",
+  "prior_knowledge": "Deep knowledge of content strategy and editorial process. Understands audience analysis as a discipline. Sceptical that AI can simulate nuanced reader response.",
+  "suspicious_of": "Overclaiming. Any sentence that implies Claude feedback is equivalent to real reader feedback. Examples that look too clean to be real.",
+  "time_budget": "Skimming fast. Will only slow down if something challenges his assumption that this is another AI hype piece.",
+  "fixed_layer": "This persona is not trying to be helpful or constructive. They have better things to do. If the content does not earn their attention in the first paragraph, they stop. They do not give the benefit of the doubt."
+}
