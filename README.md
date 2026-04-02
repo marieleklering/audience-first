@@ -1,5 +1,9 @@
 # AudienceFirst
-Simulate audience feedback on your docs before anyone else reads them.
+Stop sending documentation for review before you have caught the obvious gaps yourself.
+
+AudienceFirst uses Claude to simulate how specific readers will respond to your
+content before anyone else sees it. Not as a replacement for human review, but
+as a structured first pass that catches the gaps while they are still cheap to fix.
 
 ---
 
@@ -47,7 +51,7 @@ python run.py --doc case-study.md --persona personas/hiring-manager.json --mode 
 AudienceFirst loads a persona JSON file and a document, builds a prompt
 that puts Claude in the persona's perspective, and asks a structured set
 of questions about the content. The persona's role, reading context, prior
-knowledge, and suspicions shape the feedback — making it specific to a real
+knowledge, and suspicions shape the feedback, making it specific to a real
 reader type rather than a generic review.
 
 See [docs/workflow.md](docs/workflow.md) for the full methodology, including
