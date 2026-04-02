@@ -4,11 +4,11 @@
 
 One of the hardest parts of technical writing is that you already know the thing you are documenting. That makes it nearly impossible to read your own work like a newcomer would.
 
-You have the documentation ready, but it is difficult to anticipate the context a reader will bring to it. Without early feedback, it falls to the writer to get outside their own head and produce clear documentation for readers from different backgrounds — different experience levels, different goals, different amounts of patience.
+You have the documentation ready, but it is difficult to anticipate the context a reader will bring to it. Without early feedback, it falls to the writer to get outside their own head and produce clear documentation for readers from different backgrounds: different experience levels, different goals, different amounts of patience.
 
 ## The Solution
 
-Use Claude to simulate specific audiences and run your content through their perspective before anyone else sees it. Not as a replacement for human review — but as a structured first pass that catches the obvious gaps while they are still cheap to fix.
+Use Claude to simulate specific audiences and run your content through their perspective before anyone else sees it. Not as a replacement for human review but as a structured first pass that catches the obvious gaps while they are still cheap to fix.
 
 The key is specificity. A persona described as "a junior developer" will produce polite, generic feedback. A persona described as "a junior developer who already tried the official docs and got stuck twice" has a reason to be critical. That difference is everything.
 
@@ -22,7 +22,7 @@ Feedback it produces: "The document was clear overall. You might want to explain
 **Friction version:** "Sarah is an engineering manager who has read eleven case studies this week. Three of them claimed impressive results with no explanation of how the numbers were measured. She is tired. She gives a document 90 seconds before deciding whether it earns more of her time. She is not trying to be fair — she is trying to triage."
 Feedback it produces: "The 95% reduction figure appears twice without explaining how it was measured. If that number is wrong or loosely defined, the entire results section collapses."
 
-Same persona, same document. The friction version gives you something to actually fix.
+Same persona and document. The friction version gives you something to actually fix.
 
 ## Why This Matters
 
@@ -30,7 +30,7 @@ Generic feedback is useless. "This could be clearer" tells you nothing. A person
 
 Running two personas with different experience levels surfaces two categories of problem: gaps that confuse everyone, and gaps that only appear for a specific audience. Both are worth fixing. Knowing which is which tells you where to prioritise.
 
-Simulated feedback has a ceiling. Claude cannot replicate genuine domain expertise, accumulated frustration with a specific product, or the instinct a practitioner develops from years of hands-on work. A persona cannot tell you that a step contradicts a common convention in a specific tool's ecosystem, or that your phrasing will land differently for a reader who has been burned by exactly this kind of problem before. Use this workflow to catch the gaps you can catch early. The gaps that remain are the ones worth taking to a human reviewer.
+**Important**: Simulated feedback has a ceiling. Claude cannot replicate genuine domain expertise, accumulated frustration with a specific product, or the instinct a practitioner develops from years of hands-on work. A persona cannot tell you that a step contradicts a common convention in a specific tool's ecosystem, or that your phrasing will land differently for a reader who has been burned by exactly this kind of problem before. Use this workflow to catch the gaps you can catch early. The gaps that remain are the ones worth taking to a human reviewer.
 
 ## The 7-Step Workflow
 
