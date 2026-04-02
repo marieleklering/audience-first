@@ -62,6 +62,10 @@ act on the feedback you get.
 
 ## Included Personas
 
+Two personas are included as starting points. They were chosen because they
+represent the most common tension in technical writing: a non-technical
+reader who needs the story, and a technical reader who needs the detail.
+
 | File | Who they are | Best for |
 |---|---|---|
 | `hiring-manager.json` | Tired engineering manager, 90-second attention budget | Portfolio, case studies |
