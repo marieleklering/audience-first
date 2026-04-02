@@ -22,11 +22,11 @@ Feedback it produces: "The document was clear overall. You might want to explain
 **Friction version:** "Sarah is an engineering manager who has read eleven case studies this week. Three of them claimed impressive results with no explanation of how the numbers were measured. She is tired. She gives a document 90 seconds before deciding whether it earns more of her time. She is not trying to be fair — she is trying to triage."
 Feedback it produces: "The 95% reduction figure appears twice without explaining how it was measured. If that number is wrong or loosely defined, the entire results section collapses."
 
-Same persona. Same document. The friction version gives you something to actually fix.
+Same persona, same document. The friction version gives you something to actually fix.
 
 ## Why This Matters
 
-Generic feedback is useless. "This could be clearer" tells you nothing. A persona with a specific context, a specific frustration, and a specific time budget gives you actionable signal — the kind of feedback you would get from a real reader who is not trying to be polite.
+Generic feedback is useless. "This could be clearer" tells you nothing. A persona with a specific context, a specific frustration, and a specific time budget gives you actionable signal, the kind of feedback you would get from a real reader who is not trying to be polite.
 
 Running two personas with different experience levels surfaces two categories of problem: gaps that confuse everyone, and gaps that only appear for a specific audience. Both are worth fixing. Knowing which is which tells you where to prioritise.
 
