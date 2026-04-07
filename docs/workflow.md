@@ -12,7 +12,10 @@ Use Claude to simulate specific audiences and run your content through their per
 
 The key is specificity. A persona described as "a junior developer" will produce polite, generic feedback. A persona described as "a junior developer who already tried the official docs and got stuck twice" has a reason to be critical. That difference is everything.
 
-## Why specificity matters — a quick example
+You can run this workflow right now in Claude.ai with no setup required. A full cycle (running both personas, reviewing the output, and revising) takes around 15 minutes. Persona building is a one-time investment per
+document type; once you have a persona that works, you reuse it.
+
+## Why specificity matters: A quick example
 
 Here is the same persona written two ways, and what each produces:
 
@@ -23,6 +26,7 @@ Feedback it produces: "The document was clear overall. You might want to explain
 Feedback it produces: "The 95% reduction figure appears twice without explaining how it was measured. If that number is wrong or loosely defined, the entire results section collapses."
 
 Same persona and document. The friction version gives you something to actually fix.
+
 
 ## Why This Matters
 
