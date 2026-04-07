@@ -29,8 +29,7 @@ A Python CLI that runs the workflow from your terminal using the
 Anthropic API. In development for a future version.
 
 Both Option 1 and Option 2 work on the free tier of Claude.ai.
-A full cycle takes around 15 minutes, not counting the time to apply
-feedback.
+A full feedback cycle takes around 15 minutes. Applying the feedback takes longer and depends on the document.
 
 ---
 
