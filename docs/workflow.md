@@ -27,6 +27,7 @@ Feedback it produces: "The 95% reduction figure appears twice without explaining
 
 Same persona and document. The friction version gives you something to actually fix.
 
+**Before running your persona, ask yourself:** does this persona have a specific reason to distrust this document before they even start reading? If the answer is no, add one. A persona without suspicion will default to being polite regardless of how the rest of the description is written.
 
 ## Why This Matters
 
