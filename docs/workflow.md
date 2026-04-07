@@ -39,9 +39,20 @@ Running two personas with different experience levels surfaces two categories of
 
 ## The 7-Step Workflow
 
-1. **Choose a document** — pick something mid-length, 300 to 800 words. Not so simple there is nothing to find, not so complex the feedback becomes noise. A how-to guide, a runbook section, or a case study works well.
+1. **Choose a document** -- pick something mid-length, 300 to 800 words.
+Not so simple there is nothing to find, not so complex the feedback becomes
+noise. A how-to guide, a runbook section, or a case study works well.
 
-2. **Define two personas** — write each as a short paragraph covering role, reading context, prior knowledge, and what they are suspicious of. One should be lower-experience, one higher-experience. If you want a starting point, a full persona template is available in the personas folder of this repository. The more specific the frustration and context, the more useful the feedback.
+2. **Define two personas** -- write each as a short paragraph covering:
+   - Role and industry
+   - Reading context (why are they reading this right now)
+   - Prior knowledge (what they know and what they definitely do not)
+   - What they are suspicious of (what would make them distrust the content)
+
+   One persona should be lower-experience, one higher-experience. If you
+   want a starting point, a full persona template is available in the
+   personas folder of this repository. The more specific the frustration
+   and context, the more useful the feedback.
 
 3. **Run your document through each persona using this prompt template:**
 ```
@@ -60,7 +71,8 @@ say so and say why.
 1. What was the main point of this document?
 2. Was there anything you did not understand or had to re-read?
 3. What did you expect to find that was not there?
-4. Would you feel confident completing the task after reading this? Why or why not?
+4. Would you feel confident completing the task after reading this?
+   Why or why not?
 5. What one change would make this most useful to you?
 
 Format your response as a numbered list matching the questions.
@@ -69,10 +81,40 @@ After the numbered responses, add a short section called
 most important thing to fix.
 ```
 
-4. **Capture the output** — copy the feedback for both personas into a separate document. Tag each item as flagged by one persona or both. Items flagged by both are your highest priority fixes.
+4. **Capture the output** -- copy the feedback for both personas into a
+separate document. Tag each item as:
+   - **Both flagged** -- highest priority, fix these first
+   - **One flagged** -- decide based on your primary audience
+   - **Conflicting** -- one persona wants more, the other wants less
 
-5. **Revise the document** — make the changes you decide are worth it. The personas are inputs, not editors. You decide what applies and what does not serve the purpose of the document.
+   When personas conflict, you have two options. Pick one and apply it
+   consistently:
 
-6. **Re-run the same personas on the revised version** — this is the verification step. Check whether the gaps they flagged actually closed. If a persona still cannot answer question 4 confidently, you have not fixed the right thing yet.
+   **Option 1 -- Weight your primary audience.** If you know who matters
+   most, that persona's feedback wins the tie. Make the call explicitly:
+   "This document is primarily for Alex, so I am prioritising his feedback
+   on this point."
 
-7. **Note what you learned about your writing** — write two or three sentences about the pattern, not the document. Did both personas struggle with the same section? Did you assume prior knowledge the reader did not have? Then send for human review. The most obvious gaps are gone. Less back-and-forth will be required.
+   **Option 2 -- Make a conscious structural decision.** Acknowledge the
+   tension, decide which direction serves the document's purpose better,
+   and note why. Do not try to satisfy both. Trying to please two
+   conflicting readers usually pleases neither.
+
+   Either way, flag the conflict for your human reviewer. It is a signal
+   that the document is serving two audiences with genuinely different
+   needs, and that is worth a conversation.
+
+5. **Revise the document** -- make the changes you decide are worth it.
+The personas are inputs, not editors. You decide what applies and what
+does not serve the purpose of the document.
+
+6. **Re-run the same personas on the revised version** -- this is the
+verification step. Check whether the gaps they flagged actually closed.
+If a persona still cannot answer question 4 confidently, you have not
+fixed the right thing yet.
+
+7. **Note what you learned about your writing** -- write two or three
+sentences about the pattern, not the document. Did both personas struggle
+with the same section? Did you assume prior knowledge the reader did not
+have? Then send for human review. The most obvious gaps are gone. Less
+back-and-forth will be required.
