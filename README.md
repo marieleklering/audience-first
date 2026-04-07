@@ -11,16 +11,27 @@ No setup required. Run it right now in Claude.ai with no API key and no cost.
 
 ## How to Use This
 
-Read [docs/workflow.md](docs/workflow.md) for the full 7-step methodology.
+There are three ways to run AudienceFirst depending on your preference.
 
-The short version:
-1. Define two personas representing different readers of your content
-2. Paste your document and persona into Claude.ai using the prompt template
-   in [docs/workflow.md](docs/workflow.md)
-3. Capture the feedback, revise, and re-run to verify the gaps closed
+**Option 1 -- Manual workflow (free, no setup)**
+Run the methodology directly in Claude.ai. Paste your document, paste
+your persona, paste the questions, get feedback. Everything you need
+is in [docs/workflow.md](docs/workflow.md).
 
-A full cycle takes around 15 minutes, not counting the time to apply feedback.
+**Option 2 -- Claude Project (free, faster)**
+Set up AudienceFirst as a Claude Project so you never have to paste
+personas or questions again. Open a new Project in Claude.ai, paste
+the system prompt from
+[claude-project-setup.md](claude-project-setup.md), and run feedback
+with a single line -- "run Sarah, friction mode" -- from that point on.
 
+**Option 3 -- CLI tool (coming soon)**
+A Python CLI that runs the workflow from your terminal using the
+Anthropic API. In development for a future version.
+
+Both Option 1 and Option 2 work on the free tier of Claude.ai.
+A full cycle takes around 15 minutes, not counting the time to apply
+feedback.
 ---
 
 ## Included Personas
