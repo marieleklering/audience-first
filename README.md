@@ -5,71 +5,36 @@ AudienceFirst uses Claude to simulate how specific readers will respond to your
 content before anyone else sees it. Not as a replacement for human review, but
 as a structured first pass that catches the gaps while they are still cheap to fix.
 
----
-
-## Two ways to use this
-
-**Option 1 — CLI tool:** Run feedback directly from your terminal using the
-Python script and the Anthropic API. Faster and repeatable once set up.
-
-**Option 2 — Manual workflow:** Run the same methodology directly in
-Claude.ai with no setup, no API key, and no cost. Paste your document,
-paste your persona, paste the questions, get feedback.
-
-→ If you want to get started immediately with no setup: read [docs/workflow.md](docs/workflow.md)
-→ If you want a repeatable CLI tool: follow the Quick Start below
+No setup required. Run it right now in Claude.ai with no API key and no cost.
 
 ---
 
-## Quick Start (CLI)
-```bash
-git clone https://github.com/YOUR_USERNAME/audience-first.git
-cd audience-first
-pip install -r requirements.txt
-cp .env.example .env        # then add your Anthropic API key
-python run.py --doc your-document.md --persona personas/hiring-manager.json
-```
+## How to Use This
 
----
+Read [docs/workflow.md](docs/workflow.md) for the full 7-step methodology.
 
-## Usage Examples
-```bash
-# Default — general technical documentation
-python run.py --doc guide.md --persona personas/hiring-manager.json
+The short version:
+1. Define two personas representing different readers of your content
+2. Paste your document and persona into Claude.ai using the prompt template
+   in [docs/workflow.md](docs/workflow.md)
+3. Capture the feedback, revise, and re-run to verify the gaps closed
 
-# Friction — when default feedback feels too comfortable
-python run.py --doc guide.md --persona personas/senior-engineer.json --mode friction
-
-# Portfolio — for case studies and portfolio pieces
-python run.py --doc case-study.md --persona personas/hiring-manager.json --mode portfolio
-```
-
----
-
-## How It Works
-
-AudienceFirst loads a persona JSON file and a document, builds a prompt
-that puts Claude in the persona's perspective, and asks a structured set
-of questions about the content. The persona's role, reading context, prior
-knowledge, and suspicions shape the feedback, making it specific to a real
-reader type rather than a generic review.
-
-See [docs/workflow.md](docs/workflow.md) for the full methodology, including
-how to build effective personas, when to use friction questions, and how to
-act on the feedback you get.
+A full cycle takes around 15 minutes, not counting the time to apply feedback.
 
 ---
 
 ## Included Personas
 
-Two personas are included as starting points. They were chosen because they
-represent the most common tension in technical writing: a non-technical
-reader who needs the story, and a technical reader who needs the detail.
+Three personas are included as starting points. They cover the most common
+reader types technical writers need to account for: a non-technical evaluator,
+an experienced practitioner, and a sceptical reader who needs to be convinced
+the methodology holds up before investing time in it.
 
 | File | Who they are | Best for |
 |---|---|---|
 | `hiring-manager.json` | Tired engineering manager, 90-second attention budget | Portfolio, case studies |
 | `senior-engineer.json` | Experienced DevOps, skims to technical detail | Technical docs, runbooks |
+| `ai-skeptic.json` | Senior content strategist, has abandoned three AI tools, low expectations | Docs making claims about AI tools |
 
 See [personas/README.md](personas/README.md) for instructions on building your own.
 
@@ -77,31 +42,36 @@ See [personas/README.md](personas/README.md) for instructions on building your o
 
 ## Question Modes
 
+Three question sets are available depending on what your document needs.
+
 | Mode | Best for |
 |---|---|
 | `default` | Technical docs, how-to guides, runbooks |
 | `friction` | When default feedback feels too polite |
 | `portfolio` | Case studies, portfolio pieces |
 
-See [docs/question-sets.md](docs/question-sets.md) for the full question sets.
+See [docs/question-sets.md](docs/question-sets.md) for the full question sets
+and guidance on when to use each one.
 
 ---
 
 ## Requirements
 
-For the CLI tool:
-- Python 3.8 or higher
-- Anthropic API key — get one at [console.anthropic.com](https://console.anthropic.com)
+A Claude.ai account. The free tier is enough to run the workflow.
 
-For the manual workflow:
-- A Claude.ai account (free tier is enough)
+---
+
+## What Is Coming
+
+A Python CLI that runs the workflow from your terminal using the Anthropic API.
+Faster and repeatable once set up. In development for a future version.
 
 ---
 
 ## Contributing
 
-Contributions are welcome. Persona contributions are especially valuable —
-if you build a useful persona for a content type not covered by the included
+Contributions are welcome. Persona contributions are especially valuable -- if
+you build a useful persona for a content type not covered by the included
 examples, open a PR and add it to the `personas/` folder with a clear name
 and realistic field values.
 
