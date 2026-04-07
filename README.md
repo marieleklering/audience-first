@@ -1,4 +1,4 @@
-# AudienceFirst
+# AudienceFirst v1.0
 Stop sending documentation for review before you have caught the obvious gaps yourself.
 
 AudienceFirst uses Claude to simulate how specific readers will respond to your
