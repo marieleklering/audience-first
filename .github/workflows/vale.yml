@@ -17,7 +17,7 @@ jobs:
           sudo mv vale /usr/local/bin/vale
 
       - name: Sync styles
-        run: vale sync
+        run: vale sync --config=.vale.ini
 
       - name: Run Vale
-        run: vale --output=line .
+        run: vale --output=line --config=.vale.ini .
