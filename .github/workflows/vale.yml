@@ -8,13 +8,16 @@ jobs:
   vale:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: errata-ai/vale-action@reviewdog
-        with:
-          files: |
-            README.md
-            claude-project-setup.md
-            test-doc.md
-            docs/
-          styles: |
-            https://vale.sh/api/v1/tree/Google
+      - uses: actions/checkout@v4
+
+      - name: Install Vale
+        run: |
+          wget https://github.com/errata-ai/vale/releases/download/v3.7.0/vale_3.7.0_Linux_64-bit.tar.gz
+          tar -xvzf vale_3.7.0_Linux_64-bit.tar.gz
+          sudo mv vale /usr/local/bin/vale
+
+      - name: Sync styles
+        run: vale sync
+
+      - name: Run Vale
+        run: vale --output=line .
