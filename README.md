@@ -78,8 +78,3 @@ you build a useful persona for a content type not covered by the included
 examples, open a PR and add it to the `personas/` folder with a clear name
 and realistic field values.
 
----
-
-## License
-
-MIT
